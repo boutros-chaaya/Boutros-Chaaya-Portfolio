@@ -100,4 +100,39 @@
     .text-container {
       text-align: justify;
     }
+
+    section {
+      margin: 0 1rem; /* Reduce side margins */
+      padding-top: 2rem; /* Reduce top padding */
+    }
+    .section-container {
+        gap: 2rem; /* Reduce gap between elements */
+    }
+    .section__text__p2 {
+      font-size: 1.25rem; /* Adjust subtitle size */
+    }
+    .text-container {
+        font-size: 1rem; /* Adjust paragraph size */
+        line-height: 1.5; /* Improve readability */
+
+    /* Project cards */
+    .project-card {
+      padding: 1rem;
+      gap: 10px;
+    }
+    .project-image {
+        height: 300px; /* Reduce image height for smaller screens */
+    }
+    .project-card-title {
+        font-size: 1.5rem;
+    }
+    .project-description {
+        font-size: 1rem;
+    }
+
+    .btn, .project-card, .icon {
+        transition: all 0.3s ease-in-out;
+    }
+
+  }
   }
